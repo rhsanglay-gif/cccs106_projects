@@ -58,20 +58,21 @@ From this lab, I learned the importance of version control in managing code chan
 ## Screenshots
 
 ### Git Repository
-- [ ] GitHub repository with commit history
-- [ ] Local git log showing commits
+-![Github repository with commit history](lab2_screenshots/git_commit_history.png)
+-![Local git log showing commits](lab2_screenshots/local_git_log.png) 
 
 ### GUI Applications
-- [ ] hello_flet.py running with all features
-- [ ] personal_info_gui.py with filled form and generated profile
+-![Hello_Flet](lab2_screenshots/hello_flet.png) 
+-![Personal_Info_gui](lab2_screenshots/personal_info_gui.png) 
+-![Personal_Info_gui](lab2_screenshots/generated_profile.png)
 
 ## Future Enhancements
 
--Add themes and color customization to the GUI for better design
+- Add themes and color customization to the GUI for better design
 
--Enhance form validation with regex for stricter input rules
+- Enhance form validation with regex for stricter input rules
 
--Implement profile saving to a file (JSON/CSV)
+- Implement profile saving to a file (JSON/CSV)
 
--Extend the project with more GUI applications (e.g., grade calculator, task manager)
+- Extend the project with more GUI applications (e.g., grade calculator, task manager)
 
