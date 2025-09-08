@@ -58,7 +58,7 @@ Solutions: Need to moved the file in to the correct path.
 
 ## Screenshots
 
-- ![Environment Setup](lab1_screenshots/environmental_setup.png)  
-- ![VS Code Setup](lab1_screenshots/vscode_setup.png)  
+- ![Environment Setup](lab1_screenshots/environment_setup.png)  
+- ![VS Code Setup](lab1_screenshots/.vscode_setup.png)  
 - ![Hello World Output](lab1_screenshots/hello_world_output.png)  
 - ![Basic Calculator Output](lab1_screenshots/basic_calculator_output.png)
