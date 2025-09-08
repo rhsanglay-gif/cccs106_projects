@@ -1,8 +1,11 @@
 # Lab 2 Report: Git Version Control and Flet GUI Development
 
 **Student Name:** [Rhea Lizza B. Sanglay]
+
 **Student ID:** [231002341]
+
 **Section:** [3A]
+
 **Date:** [September 3, 2025]
 
 ## Git Configuration
