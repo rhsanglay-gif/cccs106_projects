@@ -3,10 +3,10 @@ Application Development and Emerging Technologies
 Academic Year 2025-2026
 
 ## Student Information
-- **Name:** [Your Full Name]
-- **Student ID:** [Your Student ID]
-- **Program:** [Your Academic Program]
-- **Section:** [Your Section]
+- **Name:** [Rhea Lizza B. Sanglay]
+- **Student ID:** [231002341]
+- **Program:** [BSCS]
+- **Section:** [3A]
 
 ## Repository Structure
 
@@ -63,4 +63,5 @@ git commit -m "Update README.md with new application information"
 # Push the committed changes to the remote GitHub repository
 # Synchronizes your local main branch with the remote repository on GitHub
 # This makes your updated README.md visible to others and backs up your changes
+
 git push origin main
