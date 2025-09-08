@@ -67,12 +67,11 @@ From this lab, I learned the importance of version control in managing code chan
 
 ## Future Enhancements
 
-Add themes and color customization to the GUI for better design
+-Add themes and color customization to the GUI for better design
 
-Enhance form validation with regex for stricter input rules
+-Enhance form validation with regex for stricter input rules
 
-Implement profile saving to a file (JSON/CSV)
+-Implement profile saving to a file (JSON/CSV)
 
-Extend the project with more GUI applications (e.g., grade calculator, task manager)
+-Extend the project with more GUI applications (e.g., grade calculator, task manager)
 
-[Ideas for improving the applications or additional features to implement]
