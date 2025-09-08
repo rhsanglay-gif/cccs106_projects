@@ -24,14 +24,14 @@
 - **Status:** ✅ Completed
 - **Features:** Interactive greeting, student info display, dialog boxes
 - **UI Components:** Text, TextField, Buttons, Dialog, Containers
-- **Notes:** [Any challenges or observations]
+- **Notes:** Learned how to handle user input and display dynamic text using Flet. The main challenge was properly linking button events with dialog displays
 
 ### 2. personal_info_gui.py
 - **Status:** ✅ Completed
 - **Features:** Form inputs, dropdowns, radio buttons, profile generation
 - **UI Components:** TextField, Dropdown, RadioGroup, Containers, Scrolling
 - **Error Handling:** Input validation and user feedback
-- **Notes:** [Any challenges or observations]
+- **Notes:** The biggest challenge was validating inputs (like empty fields or invalid selections). I solved this by adding conditional checks and showing error messages through dialogs.
 
 ## Technical Skills Developed
 
@@ -53,7 +53,7 @@
 
 ## Learning Outcomes
 
-[Reflect on what you learned about version control, GUI development, and collaborative programming]
+From this lab, I learned the importance of version control in managing code changes and collaborating on projects. I also developed hands-on skills in creating Flet GUI applications, understanding how to design interactive and user-friendly interfaces. Overall, I became more confident in both coding practices and using GitHub as a collaboration tool.
 
 ## Screenshots
 
@@ -67,4 +67,11 @@
 
 ## Future Enhancements
 
-[Ideas for improving the applications or additional features to implement]
+-Add themes and color customization to the GUI for better design
+
+-Enhance form validation with regex for stricter input rules
+
+-Implement profile saving to a file (JSON/CSV)
+
+-Extend the project with more GUI applications (e.g., grade calculator, task manager)
+

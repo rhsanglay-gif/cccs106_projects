@@ -57,7 +57,8 @@ Solutions: Need to moved the file in to the correct path.
  - Understood how to handle errors (e.g., invalid inputs, division by zero) in Python programs. 
 
 ## Screenshots
- - lab1_screenshots/environmental_setup.png
- - lab1_screenshot/.vscode_setup.png
- - lab1_screenshot/hello_world_output.png
- - lab1_screenshot/basic_calculator_output.png
+
+- ![Environment Setup](lab1_screenshots/environment_setup.png)  
+- ![VS Code Setup](lab1_screenshots/.vscode.png)  
+- ![Hello World Output](lab1_screenshots/hello_world_output.png)  
+- ![Basic Calculator Output](lab1_screenshots/basic_calculator_output.png)
