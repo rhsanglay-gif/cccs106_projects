@@ -1,14 +1,14 @@
 # Lab 2 Report: Git Version Control and Flet GUI Development
 
-**Student Name:** [Your Full Name]
-**Student ID:** [Your Student ID]
-**Section:** [Your Section]
-**Date:** [Submission Date]
+**Student Name:** [Rhea Lizza B. Sanglay]
+**Student ID:** [231002341]
+**Section:** [3A]
+**Date:** [September 3, 2025]
 
 ## Git Configuration
 
 ### Repository Setup
-- **GitHub Repository:** [Your repository URL]
+- **GitHub Repository:** [(https://github.com/rhsanglay-gif/cccs106_projects.git)]
 - **Local Repository:** ✅ Initialized and connected
 - **Commit History:** [Number] commits with descriptive messages
 
@@ -62,8 +62,8 @@
 - [ ] Local git log showing commits
 
 ### GUI Applications
-- [ ] hello_flet.py running with all features
-- [ ] personal_info_gui.py with filled form and generated profile
+![hello_flet.png]() hello_flet.py running with all features
+[ ] personal_info_gui.py with filled form and generated profile
 
 ## Future Enhancements
 
