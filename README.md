@@ -3,10 +3,10 @@ Application Development and Emerging Technologies
 Academic Year 2025-2026
 
 ## Student Information
-- **Name:** [Rhea Lizza B. Sanglay]
-- **Student ID:** [231002341]
-- **Program:** [BSCS]
-- **Section:** [3A]
+- **Name:** Rhea Lizza B. Sanglay
+- **Student ID:** 231002341
+- **Program:** Bachelor in Science in Computer Science
+- **Section:** 3A
 
 ## Repository Structure
 
@@ -65,3 +65,4 @@ git commit -m "Update README.md with new application information"
 # This makes your updated README.md visible to others and backs up your changes
 
 git push origin main
+
