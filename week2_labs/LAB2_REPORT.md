@@ -11,7 +11,7 @@
 ## Git Configuration
 
 ### Repository Setup
-- **GitHub Repository:** [(https://github.com/rhsanglay-gif/cccs106_projects.git)]
+- **GitHub Repository:** https://github.com/rhsanglay-gif/cccs106_projects.git
 - **Local Repository:** ✅ Initialized and connected
 - **Commit History:** 42 commits, I edited some changes in my Lab1 and Lab2 reports.
 ### Git Skills Demonstrated
