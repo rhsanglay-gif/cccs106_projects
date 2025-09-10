@@ -1,12 +1,12 @@
 # Lab 1 Report: Environment Setup and Python Basics
 
-**Student Name:** [Rhea Lizza B. Sanglay]
+**Student Name:** Rhea Lizza B. Sanglay
 
-**Student ID:** [231002341]
+**Student ID:** 231002341
 
-**Section:** [BSCS - 3A]
+**Section:** BSCS - 3A
 
-**Date:** [August 31, 2025]
+**Date:** August 31, 2025
 
 ## Environment Setup
 
