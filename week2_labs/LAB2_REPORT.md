@@ -1,20 +1,19 @@
 # Lab 2 Report: Git Version Control and Flet GUI Development
 
-**Student Name:** [Rhea Lizza B. Sanglay]
+**Student Name:** Rhea Lizza B. Sanglay
 
-**Student ID:** [231002341]
+**Student ID:** 231002341
 
-**Section:** [3A]
+**Section:** 3A
 
-**Date:** [September 3, 2025]
+**Date:** September 3, 2025
 
 ## Git Configuration
 
 ### Repository Setup
 - **GitHub Repository:** [(https://github.com/rhsanglay-gif/cccs106_projects.git)]
 - **Local Repository:** ✅ Initialized and connected
-- **Commit History:** [Number] commits with descriptive messages
-
+- **Commit History:** 42 commits, I edited some changes in my Lab1 and Lab2 reports.
 ### Git Skills Demonstrated
 - ✅ Repository initialization and configuration
 - ✅ Adding, committing, and pushing changes
