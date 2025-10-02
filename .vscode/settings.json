@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./week2_labs/hello_"
+    ]
+}

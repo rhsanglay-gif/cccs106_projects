@@ -1,69 +1,81 @@
-# CCCS 106 Projects
-Application Development and Emerging Technologies  
-Academic Year 2025-2026
+# Userlogin app
 
-## Student Information
-- **Name:** Rhea Lizza B. Sanglay
-- **Student ID:** 231002341
-- **Program:** Bachelor in Science in Computer Science
-- **Section:** 3A
+## Run the app
 
-## Repository Structure
+### uv
 
-### Week 1 Labs - Environment Setup and Python Basics
-- `week1_labs/hello_world.py` - Basic Python introduction
-- `week1_labs/basic_calculator.py` - Simple console calculator
+Run as a desktop app:
 
-### Week 2 Labs - Git and Flet GUI Development
-- `week2_labs/hello_flet.py` - First Flet GUI application
-- `week2_labs/personal_info_gui.py` - Enhanced personal information manager
-- `week2_labs/enhanced_calculator.py` - GUI calculator (coming soon)
+```
+uv run flet run
+```
 
-### Module 1 Final Project
-- `module1_final/` - Final integrated project (TBD)
+Run as a web app:
 
-## Technologies Used
-- **Python 3.8+** - Main programming language
-- **Flet 0.28.3** - GUI framework for cross-platform applications
-- **Git & GitHub** - Version control and collaboration
-- **VS Code** - Integrated development environment
+```
+uv run flet run --web
+```
 
-## Development Environment
-- **Virtual Environment:** cccs106_env
-- **Python Packages:** flet==0.28.3
-- **Platform:** Windows 10/11
+### Poetry
 
-## How to Run Applications
+Install dependencies from `pyproject.toml`:
 
-### Prerequisites
-1. Python 3.8+ installed
-2. Virtual environment activated: `cccs106_env\Scripts\activate`
-3. Flet installed: `pip install flet==0.28.3`
+```
+poetry install
+```
 
-### Running GUI Applications
-```cmd
-# Navigate to project directory
-cd week2_labs
+Run as a desktop app:
 
-# Run applications
-python hello_flet.py
-python personal_info_gui.py
-Commit and push README.md
+```
+poetry run flet run
+```
 
-# Add the updated README.md file to the staging area
-# This stages the modified README.md file so it will be included in the next commit
-# Git tracks changes to this file and prepares it for version control
-git add README.md
+Run as a web app:
 
-# Commit the staged changes with a descriptive message
-# Creates a permanent snapshot of the README.md updates in the repository history
-# The commit message should clearly describe what was changed for future reference
-git commit -m "Update README.md with new application information"
+```
+poetry run flet run --web
+```
 
-# Push the committed changes to the remote GitHub repository
-# Synchronizes your local main branch with the remote repository on GitHub
-# This makes your updated README.md visible to others and backs up your changes
+For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
 
-git push origin main
+## Build the app
 
+### Android
 
+```
+flet build apk -v
+```
+
+For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
+
+### iOS
+
+```
+flet build ipa -v
+```
+
+For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
+
+### macOS
+
+```
+flet build macos -v
+```
+
+For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
+
+### Linux
+
+```
+flet build linux -v
+```
+
+For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
+
+### Windows
+
+```
+flet build windows -v
+```
+
+For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
