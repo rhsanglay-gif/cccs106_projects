@@ -1,0 +1,37 @@
+# config.py
+"""Configuration management for the Weather App."""
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Config:
+    """Application configuration."""
+    # API Configuration
+    API_KEY = os.getenv("OPENWEATHER_API_KEY", "28b88abfaefbe4a16e3f28c753ca1b85")
+    BASE_URL = os.getenv(
+        "OPENWEATHER_BASE_URL",
+        "https://api.openweathermap.org/data/2.5/weather"
+    )
+    
+    # App Configuration
+    APP_TITLE = "Weather App"
+    APP_WIDTH = 300
+    APP_HEIGHT = 500
+    
+    # API Settings
+    UNITS = "metric"  # metric, imperial, or standard
+    TIMEOUT = 10  # seconds
+    
+    @classmethod
+    def validate(cls):
+        """Validate that required configuration is present."""
+        if not cls.API_KEY:
+            raise ValueError(
+                "OPENWEATHER_API_KEY not found. "
+                "Please create a .env file with your API key."
+            )
+        return True
+
+# Validate configuration on import
+Config.validate()

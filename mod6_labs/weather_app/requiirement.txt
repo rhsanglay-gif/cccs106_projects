@@ -1,0 +1,6 @@
+# Create requirements.txt
+cat > requirements.txt << EOF
+flet==0.28.3
+httpx>=0.25.0
+python-dotenv>=1.0.0
+EOF
